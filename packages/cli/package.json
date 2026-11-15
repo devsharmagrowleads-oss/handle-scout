@@ -1,0 +1,25 @@
+{
+  "name": "handle-scout",
+  "version": "0.1.0",
+  "description": "CLI: check one name across domains and platforms.",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "handle-scout": "./dist/index.js"
+  },
+  "files": ["dist"],
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@handle-scout/core": "0.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "~5.9.0"
+  }
+}

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 726" width="980" height="726" role="img" aria-labelledby="tt td">
+  <title id="tt">handle-scout command-line output</title>
+  <desc id="td">Output of handle-scout for the name Ram Sharma: domains, platforms and ranked alternative handles, each marked available, taken or unknown.</desc>
+  <rect width="980" height="726" rx="10" fill="#161513"/>
+  <rect x="0.5" y="0.5" width="979" height="725" rx="10" fill="none" stroke="#37342d"/>
+  <circle cx="24" cy="22" r="6" fill="#f08a75"/><circle cx="44" cy="22" r="6" fill="#e9c46a"/><circle cx="64" cy="22" r="6" fill="#7fd3a0"/>
+  <text x="490" y="27" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#9c9687">handle-scout</text>
+  <g font-family="ui-monospace, SFMono-Regular, 'Cascadia Mono', Menlo, Consolas, monospace" font-size="14">
+  <text x="28" y="66" xml:space="preserve"><tspan fill="#9c9687">$ </tspan><tspan fill="#ffffff" font-weight="700">handle-scout "Ram Sharma" --tlds com,io,dev</tspan></text>
+  
+  <text x="28" y="110" xml:space="preserve"><tspan fill="#ffffff" font-weight="700">Ram Sharma</tspan><tspan fill="#9c9687">   mode: personal   username: ramsharma   domain label: ramsharma</tspan></text>
+  
+  <text x="28" y="154" xml:space="preserve"><tspan fill="#ffffff" font-weight="700">DOMAINS</tspan><tspan fill="#9c9687">   2 available, 1 taken, 0 unknown</tspan></text>
+  <text x="28" y="176" xml:space="preserve"><tspan fill="#ede8dc">  </tspan><tspan fill="#7fd3a0">[+] available</tspan><tspan fill="#ede8dc">  ramsharma.dev               high    </tspan><tspan fill="#9c9687">lookup.icann.org/en/lookup?name=ramsharma.dev</tspan></text>
+  <text x="28" y="198" xml:space="preserve"><tspan fill="#ede8dc">  </tspan><tspan fill="#7fd3a0">[+] available</tspan><tspan fill="#ede8dc">  ramsharma.io                low     </tspan><tspan fill="#9c9687">lookup.icann.org/en/lookup?name=ramsharma.io</tspan></text>
+  <text x="28" y="220" xml:space="preserve"><tspan fill="#9c9687">                   This TLD has no public RDAP server; DNS has no record of this domain.</tspan></text>
+  <text x="28" y="242" xml:space="preserve"><tspan fill="#ede8dc">  </tspan><tspan fill="#f08a75">[x] taken    </tspan><tspan fill="#ede8dc">  ramsharma.com               high    </tspan><tspan fill="#9c9687">lookup.icann.org/en/lookup?name=ramsharma.com</tspan></text>
+  
+  <text x="28" y="286" xml:space="preserve"><tspan fill="#ffffff" font-weight="700">PLATFORMS</tspan><tspan fill="#9c9687">   8 available, 19 taken, 8 unknown</tspan></text>
+  <text x="28" y="308" xml:space="preserve"><tspan fill="#ede8dc">  </tspan><tspan fill="#7fd3a0">[+] available</tspan><tspan fill="#ede8dc">  Dev.to                      high    </tspan><tspan fill="#9c9687">dev.to/ramsharma</tspan></text>
+  <text x="28" y="330" xml:space="preserve"><tspan fill="#ede8dc">  </tspan><tspan fill="#7fd3a0">[+] available</tspan><tspan fill="#ede8dc">  PyPI                        high    </tspan><tspan fill="#9c9687">pypi.org/project/ramsharma/</tspan></text>
+  <text x="28" y="352" xml:space="preserve"><tspan fill="#ede8dc">  </tspan><tspan fill="#e9c46a">[?] unknown  </tspan><tspan fill="#ede8dc">  Instagram                   -       </tspan><tspan fill="#9c9687">instagram.com/ramsharma/</tspan></text>
+  <text x="28" y="374" xml:space="preserve"><tspan fill="#9c9687">                   Instagram serves the same login shell for every username. Open the link</tspan></text>
+  <text x="28" y="396" xml:space="preserve"><tspan fill="#9c9687">                   to check by hand.</tspan></text>
+  <text x="28" y="418" xml:space="preserve"><tspan fill="#ede8dc">  </tspan><tspan fill="#f08a75">[x] taken    </tspan><tspan fill="#ede8dc">  GitHub                      high    </tspan><tspan fill="#9c9687">github.com/ramsharma</tspan></text>
+  <text x="28" y="440" xml:space="preserve"><tspan fill="#ede8dc">  </tspan><tspan fill="#f08a75">[x] taken    </tspan><tspan fill="#ede8dc">  X (Twitter)                 medium  </tspan><tspan fill="#9c9687">x.com/ramsharma</tspan></text>
+  <text x="28" y="462" xml:space="preserve"><tspan fill="#9c9687">  ... 29 more</tspan></text>
+  
+  <text x="28" y="506" xml:space="preserve"><tspan fill="#ffffff" font-weight="700">SUGGESTIONS</tspan><tspan fill="#9c9687">   ranked by how many places each one is confirmed free</tspan></text>
+  <text x="28" y="528" xml:space="preserve"><tspan fill="#9c9687">  #   HANDLE            FREE     TAKEN  UNKN  N/A  TAKEN OR NOT ALLOWED ON</tspan></text>
+  <text x="28" y="550" xml:space="preserve"><tspan fill="#ede8dc">  1   </tspan><tspan fill="#ffffff" font-weight="700">realramsharma   </tspan><tspan fill="#7fd3a0">  13/13  </tspan><tspan fill="#ede8dc">  0      0     0    -</tspan></text>
+  <text x="28" y="572" xml:space="preserve"><tspan fill="#ede8dc">  2   </tspan><tspan fill="#ffffff" font-weight="700">heyramsharma    </tspan><tspan fill="#7fd3a0">  13/13  </tspan><tspan fill="#ede8dc">  0      0     0    -</tspan></text>
+  <text x="28" y="594" xml:space="preserve"><tspan fill="#ede8dc">  3   </tspan><tspan fill="#ffffff" font-weight="700">ramsharmahq     </tspan><tspan fill="#7fd3a0">  13/13  </tspan><tspan fill="#ede8dc">  0      0     0    -</tspan></text>
+  <text x="28" y="616" xml:space="preserve"><tspan fill="#ede8dc">  4   </tspan><tspan fill="#ffffff" font-weight="700">connectramsharma</tspan><tspan fill="#ede8dc">  12/13  </tspan><tspan fill="#ede8dc">  0      0     1    </tspan><tspan fill="#9c9687">X (Twitter) (n/a)</tspan></text>
+  <text x="28" y="638" xml:space="preserve"><tspan fill="#ede8dc">  5   </tspan><tspan fill="#ffffff" font-weight="700">itsramsharma    </tspan><tspan fill="#ede8dc">  11/13  </tspan><tspan fill="#ede8dc">  2      0     0    </tspan><tspan fill="#9c9687">X (Twitter), YouTube</tspan></text>
+  
+  <text x="28" y="682" xml:space="preserve"><tspan fill="#9c9687">Done in 5.5s.</tspan></text>
+  </g>
+</svg>

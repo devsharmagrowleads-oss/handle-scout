@@ -1,0 +1,27 @@
+{
+  "name": "handle-scout-monorepo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Check one name across domains and platforms, with honest results and ranked alternatives.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "build": "npm run build:core && npm run build:cli && npm run build:web",
+    "build:core": "npm run build -w @handle-scout/core",
+    "build:cli": "npm run build -w handle-scout",
+    "build:web": "npm run build -w @handle-scout/web",
+    "test": "npm test -w @handle-scout/core",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "cli": "node packages/cli/dist/index.js",
+    "dev": "npm run build:core && npm run dev -w @handle-scout/web",
+    "start": "npm run start -w @handle-scout/web",
+    "verify:platforms": "npm run build:core && node packages/core/scripts/verify-live.mjs"
+  }
+}
